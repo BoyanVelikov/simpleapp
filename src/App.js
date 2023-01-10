@@ -18,7 +18,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello, {2 + 2}</h1>
+      <Person></Person>
+      {/* <h1>Hello, {2 + 2}</h1> */}
       {/* {name ? (
         <>
         <h1>{name}</h1>
