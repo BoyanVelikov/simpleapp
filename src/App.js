@@ -20,9 +20,9 @@ const App = () => {
     <div className="App">
       <Person name='John' LastName='Doe' age={25}/>
       <Person name='Marry' LastName='Doe' age={25}/>
+      {/* <Person/>
       <Person/>
-      <Person/>
-      <Person/>
+      <Person/> */}
       {/* <h1>Hello, {2 + 2}</h1> */}
       {/* {name ? (
         <>
