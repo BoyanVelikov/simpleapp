@@ -19,6 +19,9 @@ const App = () => {
 
   return (
     <div className="App">
+      <button>-</button>
+      <h1>0</h1>
+      <button>+</button>
       {/* <Person name='John' LastName='Doe' age={25}/>
       <Person name='Marry' LastName='Doe' age={25}/> */}
       {/* <Person/>
