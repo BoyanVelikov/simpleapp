@@ -15,7 +15,7 @@ import './App.css';
 
 const App = () => {
 
-  const [] = useState();
+  const [counter, setCounter] = useState();
   // const name = 'Jane';
   // const isNameShowing = true;
 
