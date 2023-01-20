@@ -15,14 +15,14 @@ import './App.css';
 
 const App = () => {
 
-  const [counter, setCounter] = useState();
+  const [counter, setCounter] = useState(0);
   // const name = 'Jane';
   // const isNameShowing = true;
 
   return (
     <div className="App">
       <button>-</button>
-      <h1>0</h1>
+      <h1>{counter}</h1>
       <button>+</button>
       {/* <Person name='John' LastName='Doe' age={25}/>
       <Person name='Marry' LastName='Doe' age={25}/> */}
