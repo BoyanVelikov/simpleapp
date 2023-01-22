@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <button onClick={() => alert('clicked')}>-</button>
+      <button onClick={() => setCounter(-5)}>-</button>
       <h1>{counter}</h1>
       <button>+</button>
       {/* <Person name='John' LastName='Doe' age={25}/>
