@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import './App.css';
 
 
@@ -18,6 +18,12 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   // const name = 'Jane';
   // const isNameShowing = true;
+
+  useEffect(() => {
+    // alert("Reload");
+    alert("You've changed the counter to " + counter);
+    setCounter(100);
+  },[counter]);
 
   return (
     <div className="App">
