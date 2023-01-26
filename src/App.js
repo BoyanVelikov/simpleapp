@@ -1,4 +1,7 @@
 import React from "react";
+import { useEffect } from "react";
+
+const API_URL = 'http://www.omdpapi.com?apikey=c032e2d7';
 
 const App = () => {
   return (
