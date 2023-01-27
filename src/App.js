@@ -4,6 +4,15 @@ import { useEffect } from "react";
 const API_URL = 'http://www.omdpapi.com?apikey=c032e2d7';
 
 const App = () => {
+
+  const searchMovies = async (title) => {
+    const response = fetch(`${API_URL}&s=${title}`);
+  }
+
+  useEffect(() => {
+
+  },[]);
+
   return (
     <h1>App</h1>
   )
