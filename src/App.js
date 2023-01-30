@@ -1,12 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 
-const API_URL = 'http://www.omdpapi.com?apikey=c032e2d7';
+const API_URL = 'http://www.omdbapi.com/';
 
 const App = () => {
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
+    const response = await fetch(`${API_URL}?t=${title}`);
     const data = await response.json();
 
     console.log(data);
