@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import './App.css';
 
 const API_URL = 'http://www.omdbapi.com/';
 
@@ -12,6 +13,7 @@ const App = () => {
     console.log(data);
     console.log(data);
     console.log(data);
+    
   };
 
   useEffect(() => {
