@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import './App.css';
-import SearchIcon from './search.svg';
+// import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com/';
 
@@ -22,7 +22,9 @@ const App = () => {
   },[]);
 
   return (
-    <h1>App</h1>
+    <div className="app">
+      <h1>MovieLand</h1>
+    </div>
   )
 }
 
